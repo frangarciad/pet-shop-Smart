@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/webpetdeploy/static/css/main.c3225318.css",
+    "main.js": "/webpetdeploy/static/js/main.a75b3055.js",
+    "static/js/787.8d667e43.chunk.js": "/webpetdeploy/static/js/787.8d667e43.chunk.js",
+    "static/media/background1.png": "/webpetdeploy/static/media/background1.95e8a18227093e5f5c24.png",
+    "static/media/logo.png": "/webpetdeploy/static/media/logo.48a7ca9fbb9eefdff3ef.png",
+    "static/media/shopLocal.jpg": "/webpetdeploy/static/media/shopLocal.a569445f61bee7a02adb.jpg",
+    "index.html": "/webpetdeploy/index.html",
+    "main.c3225318.css.map": "/webpetdeploy/static/css/main.c3225318.css.map",
+    "main.a75b3055.js.map": "/webpetdeploy/static/js/main.a75b3055.js.map",
+    "787.8d667e43.chunk.js.map": "/webpetdeploy/static/js/787.8d667e43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3225318.css",
+    "static/js/main.a75b3055.js"
+  ]
+}

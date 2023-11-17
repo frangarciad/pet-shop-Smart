@@ -1,0 +1,208 @@
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #222;
+  padding: 20px 0px;
+}
+footer ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #aaa;
+}
+
+.div__footer__container ul li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.div__footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div__footer__img {
+  /* padding-top: 30px; */
+  margin-top: 30px;
+}
+.div__footer__img h3 {
+  font-size: 2rem;
+  margin-top: -20px;
+  font-weight: 300;
+  transform: scaleX(1.1);
+  margin-left: 35px;
+  -webkit-transform: scaleX(1.1);
+  -moz-transform: scaleX(1.1);
+  -ms-transform: scaleX(1.1);
+  -o-transform: scaleX(1.1);
+}
+
+.div__footer__contacto a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.div__footer__mapa {
+  margin-top: 20px;
+}
+
+.div__footer__links {
+  display: flex;
+  /* position: absolute; */
+}
+
+.div__footer__links h3 {
+  position: relative;
+  top: -18px;
+  left: 230px;
+  font-size: 2.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.div__footer__links ul {
+  /* top: 50px; */
+  position: relative;
+  top: -10px;
+  left: -87px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: center; */
+}
+.div__footer__links ul li {
+  margin-top: 5px;
+}
+.div__footer__links .lista2 {
+  position: relative;
+  top: -11px;
+}
+
+.contenedor__copy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  height: fit-content;
+  /* background-color: red;  */
+  position: absolute;
+}
+
+.contenedor__copy p {
+  color: rgb(121, 121, 121);
+  font-weight: bold;
+  transform: scaleX(1.2);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  position: relative;
+  top: 275px;
+  left: 565px;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.contenedor__copy p:hover {
+  cursor: pointer;
+  color: rgb(163, 161, 161);
+}
+
+/* ====================================================================================================================
+====================================================================================================================== 
+                                     M  E D I A    Q U E R I E S;    
+                            
+                                     M E D I A S    Q U E R E S :D
+  ====================================================================================================================
+====================================================================================================================== */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .wrapper-container {
+    overflow: hidden;
+  }
+
+  .div__footer__img{
+    position: relative;
+    left: 20px;
+  }
+  .div__footer__img h3{
+    position: relative;
+    top: 10px;
+ 
+  }
+  .div__footer__links {
+    width: 442px;
+  }
+
+  .div__footer__links ul {
+    height: 100px;
+    position: relative;
+    top: 98px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+  }
+  .div__footer__links .lista2{
+    height: 105px;
+    position: relative;
+    top: 97px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div__footer__links h3{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 33%;
+    top: -31px;
+
+    /* backgrou nd-color: red; */
+
+
+  }
+
+  .div__footer__contacto{
+    position: relative;
+    right:  20px;
+    top: -10px;
+    align-items: center;
+  }
+  .div__footer__contacto .container-a{
+    position: relative;
+    top: 10px;
+  }
+
+    .contenedor__copy{
+        /* position: absolute; */
+        display: flex;
+        /* background-color: red; */
+        justify-content: center;
+        /* margin-right: 210px; */
+    }
+    .contenedor__copy p{
+        position: relative;
+        left: 450px;
+        top: 280px;
+       /* margin-right: 300px; */
+    }
+
+
+  }
+

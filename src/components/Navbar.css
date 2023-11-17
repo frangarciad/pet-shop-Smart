@@ -1,0 +1,169 @@
+nav {
+    background-color: #222;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    transition: all ease 0.1s;
+    z-index: 20;
+}
+
+.div__nav__contenido {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div__nav__contenido * {
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, rgb(233, 44, 44), #fd0303);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+
+.menu a:hover::before {
+    transform: scaleX(1);
+ 
+}
+
+.menu a:hover{
+    color: gray;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+
+.div__input__busqueda {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.div__input__busqueda input{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    width: 80%;
+}
+
+.div__input__busqueda span button{
+    border: none;
+    background-color: #fff;
+    border-radius: 0 50% 50% 0;
+    padding: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.div__numeromail {
+    padding: 10px;
+}
+
+.div__numeromail span{
+    display: block;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.div__numeromail i {
+    margin: 0px 8px;
+}
+
+.div__numeromail a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* ====================================================================================================================
+====================================================================================================================== 
+                                     M  E D I A    Q U E R I E S;    
+                            
+                                     M E D I A S    Q U E R E S :D
+  ====================================================================================================================
+====================================================================================================================== */
+
+
+
+                           
+
+@media (min-width:1100px) and (max-width:1280px){
+    .wrappper-container{
+        overflow: hidden;
+    }
+   
+    label{
+        width: 510px;
+        /* background-color: red; */
+    }
+    label .div__input__busqueda{
+        padding-left: -25px;
+        margin-top: 14px;
+        margin-left: 35px;
+        
+    }
+
+    label .div__input__busqueda input{
+        width: 60%;
+    }
+
+
+    .div__numeromail{
+        margin-right: 21px;
+        position: relative;
+        right: 105px;
+        width: max-content;
+    }
+
+
+
+    
+}
+                            
+
+@media (max-width:1099px){
+    label{
+        /* background-color: red; */
+        width: 31%;
+    }
+    label .div__input__busqueda input{
+        width: 50%;
+    }
+}

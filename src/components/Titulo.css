@@ -1,0 +1,21 @@
+h1 {
+    font-weight: 300;
+    /*position: relative;
+    left: 530px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff000f;
+    */display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+    color: white;
+    text-transform: uppercase;
+}
+
+.div__titulo {
+}
